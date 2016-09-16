@@ -1,5 +1,8 @@
 TEMPLATE = app
-TARGET = 
+TARGET = Si570Synth
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 LIBS +=  -lusb-1.0
 # Input
 HEADERS += src/si570synth.h

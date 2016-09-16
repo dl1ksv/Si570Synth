@@ -1,8 +1,16 @@
 Small testprogram for DG8SAQ AVR-USB based SI570 Controllers
-It requires the original firmware from DG8SAQ as it is used in the kit
+It requires the original firmware from DG8SAQ.
+
+Vendorid=16c0, Productid=05dc
+Manufacturer: www.obdev.at
+Product: DG8SAQ-I2C
+Serial number: Beta1.1
+
+For example it is used in the kit
 FA-Synthesizer "FA-SY 1", 10 - 160 MHz from
 http://www.funkamteur.de
 
+It should build against qt4 and qt5
 To build untar / unzip the archiv and switch to the Si570Synth directory.
 
 run:
